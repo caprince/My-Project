@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="file:///C:/Users/The%20Dark%20Pavilion/Desktop/learning-css3/font-icons/fontawesome-free-5.9.0-web/css/all.min.css">
+  <script src="https://kit.fontawesome.com/b8ddf34b61.js"></script>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Sing Up</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark">
+    <h1>
+      <a href="index.html">
+        <i class="fas fa-code"></i> Devconnector
+      </a>
+    </h1>
+    <ul>
+      <li><a href="profiles.html">Developers</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <section class="container">
+    <h1 class="large text-primary">
+      Sing Up
+    </h1>
+    <p class="lead"><i class="fas fa-user"></i>
+      Create Your Accound
+    </p>
+    <form action="dashboard.html" class="form">
+      <div class="form-groups">
+        <input type="text" placeholder="Name" required>
+      </div>
+
+      <div class="form-groups">
+        <input type="email" placeholder="Email Address">
+        <small class="form-text">
+          This site uses Gravetar, so if you want a Profile image, use a Gravetar email
+        </small>
+        <div class="form-groups">
+          <input type="password" placeholder="Password" minlength="6">
+        </div>
+        <div class="form-groups">
+          <input type="password" placeholder="Confirm Password" minlength="6">
+        </div>
+      </div>
+      <input type="submit" value="Register" class="btn btn-primary">
+    </form>
+    <p class="my-1">
+      Already have an Accound? <a href="login.html">
+        <button class="btn btn-light">Login</button>
+      </a>
+    </p>
+  </section>
+</body>
+
+</html>
